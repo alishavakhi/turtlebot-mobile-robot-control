@@ -131,7 +131,7 @@ submitted report, `report/Ali_Shavakhi_Final_Report.pdf` §Task 4.
 
 * Tasks 1–3: every metric in the verified tables above is recomputed from the
   exported logs and compared with the metric table the report was written from.
-* Model integrity: the five `.slx` files are readable packages, and the
+* Model integrity: all six `.slx` files are readable packages, and the
   extracted code in `src/model_code/` re-extracts byte-identically from them.
 * Provenance: every published file matches `docs/PROVENANCE.sha256`, i.e. it is
   byte-identical to the frozen intake copy (the two files with repaired

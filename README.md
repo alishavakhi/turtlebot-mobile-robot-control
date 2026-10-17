@@ -103,7 +103,7 @@ Python requirements: `pip install -r requirements.txt`.
 
 ```
 src/matlab/            initialisation scripts (fa.m, FA_modified.m), draw_robot.m, analysis pipeline
-src/simulink/          the five models: four task simulations + the real-robot model
+src/simulink/          six models: four task simulations, the analytical-Jacobian Task 4 variant, and the real-robot model
 src/model_code/        MATLAB Function blocks extracted verbatim from the models
 data/real/             real-robot logs: raw SimulationOutput objects + exported structs
 data/simulation/       exported simulation runs (Tasks 1-4)
