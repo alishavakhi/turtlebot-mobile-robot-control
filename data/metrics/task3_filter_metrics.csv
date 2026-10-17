@@ -1,0 +1,12 @@
+Quantity,Value,Unit,Note
+ekf_rmse_valid_m,0.0081336952654080912,m,EKF RMSE over samples with a valid Vicon fix
+ekf_rmse_lost_m,0.0087909786502784332,m,EKF RMSE over samples with no Vicon fix
+ekf_rmse_m,0.0087252802393143168,m,EKF RMSE over the whole run
+ekf_max_m,0.05357905433579304,m,maximum EKF position error
+imu_rmse_m,2.0378274577110522,m,dead-reckoning (IMU/odometry) RMSE
+target_final_m,0.048618538277853562,m,final distance to the target pose
+target_rmse_m,0.35784979549417556,m,RMSE against the target trajectory
+vicon_loss_percent,89.65517241379311,%,share of samples without a Vicon fix
+valid_vicon_percent,10.344827586206897,%,share of samples with a Vicon fix
+max_wheel_cmd_rad_s,9.4106356094236734,rad/s,peak commanded wheel speed
+duration_s,42.880000000000003,s,run duration
